@@ -451,10 +451,14 @@ section div .title {
         padding: 100px 10px;
     }
 
-    .intro-container {}
+    .intro-container {
+        flex-direction: column;
+    }
 
     .intro-text {
+        display: block;
         font-size: 25px;
+        width: calc(100vw - 20px);
     }
 
     .intro-text strong {
@@ -462,7 +466,7 @@ section div .title {
     }
 
     #hire-me-button-text {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .unique-text h1 {
@@ -475,12 +479,12 @@ section div .title {
 
     .about-section p {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         word-wrap: break-word;
     }
 
     .projects-section ul li h1 {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     #contactForm {
@@ -488,10 +492,12 @@ section div .title {
     }
 
     .form-input {
-        font-size: 25px;
+        border-radius: 5px;
+        font-size: 20px;
     }
 
     #contactForm button {
-        font-size: 25px;
+        border-radius: 5px;
+        font-size: 20px;
     }
 }
